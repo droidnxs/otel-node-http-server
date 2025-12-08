@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "start": "node --import ./dist/instrumentation.js ./dist/server.js",
+    "start": "npx tsx --import ./src/instrumentation.ts ./src/server.ts",
     "dev": "npm run build && npm start",
     "clean": "rm -rf dist"
   },
