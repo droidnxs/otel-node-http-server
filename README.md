@@ -13,7 +13,6 @@ Code-based auto-instrumentation is available in `src/instrumentation.ts` and can
 - `npm install`
 - `export OTEL_LOG_LEVEL=debug`
 - `export OTEL_TRACES_EXPORTER=console`
-
 - `export OTEL_METRICS_EXPORTER=none`
 - `export OTEL_LOGS_EXPORTER=none`
 - `npm run start`
